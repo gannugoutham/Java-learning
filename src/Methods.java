@@ -9,7 +9,7 @@ public class Methods {
         c = max(a, b); //a,b are actual parameters or arguments.
         System.out.println("max " + c);
 
-        Main mn = new Main(); //object of main method is crated to call non-static maxNumber method.
+//        Main mn = new Main(); //object of main method is crated to call non-static maxNumber method.
 
         increment(a);
         System.out.println("value of a after passing to increment method " + a);
