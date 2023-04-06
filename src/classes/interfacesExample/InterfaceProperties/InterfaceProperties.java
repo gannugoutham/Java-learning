@@ -4,7 +4,7 @@ interface Test1 {
     final static int x= 10; //final static is default for properties.
     public abstract void meth1(); // by default the methods are public and abstract.
     public abstract void meth2();
-    //all the below methods in interfaces should require a body.
+    //all the above methods in interfaces should require a body.
     private void meth3(){ //even though it cant be used outside the class,the purpose is - it can be used by default methods in the same interface.
         System.out.println("meth3 - private method in Test1 Interfaces");
     }
